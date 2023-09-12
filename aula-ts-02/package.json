@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon dist/index.ts",
+    "dev": "nodemon src/index.ts",
     "clean": "tsc --build --clean"
   },
   "author": "",

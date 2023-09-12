@@ -4,7 +4,7 @@ function multiply(num1:number, num2:number):number {
 }
 console.log(multiply(2, 4))
 function sum(num1: number, num2:number):number {
-    return num1 * num2;
+    return num1 + num2;
 }
 console.log(sum(2, 4))
 function isEven(num: number): boolean {
@@ -12,10 +12,10 @@ function isEven(num: number): boolean {
 }
 
 console.log(showResult(4))
-function showResult(result:number) {
+function showResult(result:number): void {
     if(isEven(result)) {
         console.log(`The result is ${result} and it's even!`);
     } else {
-        console.log(`The result is ${result} and it's even!`);
+        console.log(`The result is ${result} and it's odd!`);
     }
 }
